@@ -69,13 +69,13 @@ const images = [
 
 let currentIndex = 0;
 
-// открыть модалку
+
 openGalleryBtn.addEventListener('click', () => {
     modal.classList.add('active');
     modalImage.src = images[currentIndex];
 });
 
-// переключение
+
 function showImage(index) {
     if (index < 0) {
         currentIndex = images.length - 1;
@@ -96,7 +96,7 @@ prevBtn.addEventListener('click', () => {
     showImage(currentIndex - 1);
 });
 
-// закрытие
+
 modalClose.addEventListener('click', () => {
     modal.classList.remove('active');
 });

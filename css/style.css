@@ -467,6 +467,12 @@ section {
         font-size: 28px;
     }
 
+    .footer-social-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .modal__content {
         max-width: 95%;
         padding: 20px;
